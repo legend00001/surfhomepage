@@ -7,6 +7,18 @@
 <meta name="keywords" content="上网导航,网址大全,网址导航,主页,homepage,surf,surfhomepage">
 <meta name="description" content="surfhomepage是汇集全网优质网址及资源的中文上网导航。及时收录影视、音乐、小说、游戏等分类的网址和内容，让您的网络生活更简单精彩。上网，从surfhomepage开始。">
 <title>surfhomepage</title>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9cdc6e9c47c584866f6923f9a536d74d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
 </head>
 <body style="height:100%;width: 99%;margin-top: 0px;">
 <div style="width: 100%;margin-top: 0px;text-align: center;">
@@ -285,7 +297,7 @@
 <script type="text/javascript">
 document.getElementById("q").focus();
 function q(){
-	window.open("query.jsp?q="+(document.getElementById("q").value));
+	window.open("https://www.baidu.com/s?wd="+(document.getElementById("q").value));
 }
 //回车触发用当前引擎查询
 function enterKeyUpEvent(event){
